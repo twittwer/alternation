@@ -1,0 +1,34 @@
+{
+  "name": "alternation",
+  "description": "ngx image parallax build on top of @angular/animations and @angular/cdk scrollable",
+  "keywords": [
+    "angular",
+    "parallax",
+    "library"
+  ],
+  "version": "1.0.0-beta.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martyniak-innovative/alternation.git"
+  },
+  "peerDependencies": {
+    "@angular/platform-browser": "^6.0.0",
+    "@angular/animations": "^6.0.0",
+    "@angular/common": "^6.0.0",
+    "@angular/core": "^6.0.0",
+    "@angular/cdk": "^6.0.0"
+  },
+  "main": "bundles/alternation.umd.js",
+  "module": "fesm5/alternation.js",
+  "es2015": "fesm2015/alternation.js",
+  "esm5": "esm5/alternation.js",
+  "esm2015": "esm2015/alternation.js",
+  "fesm5": "fesm5/alternation.js",
+  "fesm2015": "fesm2015/alternation.js",
+  "typings": "alternation.d.ts",
+  "metadata": "alternation.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
